@@ -33,9 +33,9 @@ api_key = "07f41ff15e82473ee2aa3733a0efa3d5"								#from openWeatherMap
 
 base_url = "http://api.openweathermap.org/data/2.5/weather?"				#for requesting
 
-#print("Hello! Welcome to pyWeather!\n")
-custom_fig = Figlet(font='house_of')
-print(custom_fig.renderText('Hello! Welcome to pyWeather!\n'))
+print("Hello! Welcome to pyWeather!\n")
+#custom_fig = Figlet(font='house_of')
+#print(custom_fig.renderText('Hello! Welcome to pyWeather!\n'))
 
 
 city_name = input("Enter the name of a city to get its weather details : ") 
